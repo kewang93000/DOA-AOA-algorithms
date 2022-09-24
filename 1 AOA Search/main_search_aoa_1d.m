@@ -37,7 +37,7 @@ angle_est = alg_aoa_search(phi_obs, phase_all);
 disp(['The estimated angle is ', num2str(angle_est,'%2.2f'), '[deg] | error = ', ...
     num2str(abs(angle_real-angle_est),'%2.2f'), '[deg]']);
 
-
+% does it right ,is it the best way?
 
 
 
